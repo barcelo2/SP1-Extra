@@ -1,0 +1,45 @@
+/* TABLET*/
+
+/*PHONES AND SMALL TABLETS TILL 767*/
+@media only screen and (max-width: 767px) and (min-width: 480px) {
+  .header_text_box {
+    width: 30rem;
+  }
+
+  .h1 {
+    font-size: 1rem;
+  }
+
+  .articles h1 {
+    font-size: 1.8rem;
+  }
+
+  .articles ul {
+    grid-template-columns: 1fr;
+  }
+
+  h5 {
+    text-transform: none;
+  }
+}
+
+/*LOGIN FORM*/
+@media only screen and (max-width: 575.98px) {
+  .container-login {
+    flex-direction: column;
+    box-shadow: none;
+  }
+
+  .col-left,
+  .col-right {
+    width: 100%;
+    margin: 0;
+    padding: 30px;
+    -webkit-clip-path: none;
+    clip-path: none;
+  }
+
+  .login-form p a {
+    font-size: 0.7rem;
+  }
+}
